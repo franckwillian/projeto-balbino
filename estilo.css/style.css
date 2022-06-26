@@ -1,0 +1,189 @@
+@import 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+:root{
+    --cor1:#010221;
+    --cor2:#0A7373;
+    --cor3:#B7BF99;
+    --cor4:#EDAA25;
+    --cor5:#C43302;
+    --cor6:#c4461cee;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    background-color: var(--cor2);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
+    padding-bottom: 20px;
+}
+
+
+header p {
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.432);
+}
+
+
+nav {
+    background-color: var(--cor1);
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.301);
+    margin: auto;
+}
+
+nav>a {
+   
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.80em;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: .5s;
+}
+
+nav>a:hover {
+    background-color: azure;
+    color: var(--cor5);
+    border-radius: 5px;
+}
+
+body{
+    background-color: white;
+}
+main{
+    max-width: 800px;
+    background-color: var(--cor4);
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.front{
+    height: 140px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 3px;
+    color: var(--cor1);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: bold;
+        
+ }
+
+
+
+#eletrica{
+    background-color: var(--cor5);
+    background-image: url('../imagens/eletrica.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+
+}
+
+body > main > #principal > a {
+    text-decoration: none;
+}
+
+#eletrica:hover{
+  border: solid 1px #010221;
+  box-shadow: 3px 3px 5px 3px black;
+}
+
+
+#hidraulica{
+    background-color: var(--cor5);
+    background-image: url('../imagens/hidraulica.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hidraulica:hover{
+    border: solid 1px #010221;
+    box-shadow: 3px 3px 5px 3px black;
+  }
+
+#reparos{
+    background-color: var(--cor5);
+    background-image: url('../imagens/reparos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+#reparos:hover{
+    border: solid 1px #010221;
+    box-shadow: 3px 3px 5px 3px black;
+  }
+
+#outros{
+    background-color: var(--cor5);
+    background-image: url('../imagens/caixa-ferramenta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#outros:hover{
+    border: solid 1px #010221;
+    box-shadow: 3px 3px 5px 3px black;
+  }
+
+ main > section {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: auto;    
+ }
+
+ #sobre-nos{
+    
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor3);
+ }
+
+ #descricao > h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+ footer{
+    background-color: #010221;
+    color: white;
+    text-align: center;
+ }
